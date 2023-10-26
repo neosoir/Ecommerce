@@ -24,20 +24,27 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="<?= $path ?>views/assets/css/plugins/fontawesome-free/css/all.min.css">
     <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Theme style -->
     <link rel="stylesheet" href="<?= $path ?>views/assets/css/plugins/adminlte/adminlte.min.css">
     
     <!-- JS -->
     
     <!-- Bootstrap 5 -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- jQuery -->
     <script src="<?= $path ?>views/assets/js/plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body class="hold-transition sidebar-collapse layout-top-nav">
     <div class="wrapper">
+
+        <!-- Top -->
+        <?php include "modules/top.php" ?>
+        <!-- /Top -->
 
         <!-- Navbar -->
         <?php include "modules/navbar.php" ?>
