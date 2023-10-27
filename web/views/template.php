@@ -37,8 +37,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/template/template.css">
 
-<!--   <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/products/products.css">
- -->
+  <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/products/products.css">
+
   <!-- JS -->
 
   <!-- jQuery -->
@@ -51,8 +51,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="<?php echo $path ?>views/assets/js/plugins/jdSlider/jdSlider.js"></script>
 
   <!-- Knob -->
-<!--   <script src="<?php echo $path ?>views/assets/js/plugins/knob/knob.js"></script>
- -->
+  <script src="<?php echo $path ?>views/assets/js/plugins/knob/knob.js"></script>
+
 </head>
 
 <body class="hold-transition sidebar-collapse layout-top-nav">
@@ -75,8 +75,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <!-- AdminLTE App -->
 <script src="<?php echo $path ?>views/assets/js/plugins/adminlte/adminlte.min.js"></script>
-<!-- <script src="<?php echo $path ?>views/assets/js/products/products.js"></script>
- -->
+<script src="<?php echo $path ?>views/assets/js/products/products.js"></script>
+
 </body>
 </html>
 

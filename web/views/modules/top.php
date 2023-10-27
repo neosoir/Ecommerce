@@ -39,7 +39,7 @@
                     <div class="p-2">|</div>
                     <div class="p-2">
                         <a href="#" target="_blank" class="text-white">
-                            Crear una cuenta
+                            Crear cuenta
                         </a>
                     </div>
                 </div>
